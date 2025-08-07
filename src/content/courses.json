@@ -1,0 +1,28 @@
+{
+  "title": "COURSES",
+  "description": "On-demand courses, coaching and LIVE sessions. Manas brings you the best training and company in the courses he has crafted to help you stay on purpose & unleash your genius.",
+  "courses": [
+    {
+      "title": "Leadership Mastery",
+      "description": "On-demand course on leadership and management skills",
+      "duration": "8 weeks",
+      "level": "Intermediate",
+      "image": "https://source.unsplash.com/random?leadership"
+    },
+    {
+      "title": "Motivation & Success",
+      "description": "Learn the principles of motivation and achieving success",
+      "duration": "6 weeks",
+      "level": "Beginner",
+      "image": "https://source.unsplash.com/random?motivation"
+    },
+    {
+      "title": "Corporate Training",
+      "description": "Advanced corporate training and facilitation techniques",
+      "duration": "10 weeks",
+      "level": "Advanced",
+      "image": "https://source.unsplash.com/random?corporate"
+    }
+  ],
+  "cta": "VIEW ALL COURSES"
+} 

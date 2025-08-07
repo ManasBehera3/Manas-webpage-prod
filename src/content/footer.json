@@ -1,0 +1,24 @@
+{
+  "name": "Manas Behera",
+  "role": "CEO & Chief Facilitator",
+  "quote": "I am blessed that my love for people and passion to help is what I do for a living. Actually, in any way that one looks at it, that should be the primary agenda of every business and professional. To motivate, to inspire, to lead, is what drives me because I sincerely believe that there is a far better future that we can make, even when we believe that we are doing our best.",
+  "contact": {
+    "phone": "+91 9967734215",
+    "email": "manas@manas-kumar.com",
+    "address": "Placeholder address"
+  },
+  "social": [
+    { "label": "Facebook", "icon": "facebook" },
+    { "label": "Twitter", "icon": "twitter" },
+    { "label": "YouTube", "icon": "youtube" },
+    { "label": "Instagram", "icon": "instagram" },
+    { "label": "LinkedIn", "icon": "linkedin" }
+  ],
+  "copyright": "© 2025 Copyrights Manas Behera. All rights reserved.",
+  "links": [
+    { "label": "Privacy Policy", "href": "#" },
+    { "label": "Contact Us", "href": "#" },
+    { "label": "Terms and Conditions", "href": "#" },
+    { "label": "Books", "href": "#" }
+  ]
+} 

@@ -1,0 +1,26 @@
+{
+  "title": "PODCASTS",
+  "description": "Hosted on Audible & Spotify, Manas keeps you good and positive company with his stories, anecdotes and life changing experiences. Tune into your genius.",
+  "episodes": [
+    {
+      "title": "Episode 1: The Power of Mindset",
+      "description": "Exploring how mindset shapes our success and daily life",
+      "duration": "45 min",
+      "image": "https://source.unsplash.com/random?podcast=1"
+    },
+    {
+      "title": "Episode 2: Leadership in Crisis",
+      "description": "How to lead effectively during challenging times",
+      "duration": "52 min",
+      "image": "https://source.unsplash.com/random?podcast=2"
+    },
+    {
+      "title": "Episode 3: Building Resilience",
+      "description": "Strategies for developing mental and emotional resilience",
+      "duration": "38 min",
+      "image": "https://source.unsplash.com/random?podcast=3"
+    }
+  ],
+  "ctaSpotify": "SPOTIFY",
+  "ctaAudible": "AUDIBLE"
+} 

@@ -1,0 +1,34 @@
+{
+  "title": "CLIENT TESTIMONIALS",
+  "testimonials": [
+    {
+      "name": "Mr. Rajesh Jejurikar",
+      "position": "President & Chief Executive – Farm Equipment & Two Wheelers, Mahindra & Mahindra Ltd",
+      "content": "Manas has the rare ability to connect with people, inspire them to do and strive for more.",
+      "rating": 5,
+      "avatar": "RJ"
+    },
+    {
+      "name": "Mr. Amitabh Verma",
+      "position": "Chief Operating Officer, Tata AIA Life Insurance Company Limited",
+      "content": "Manas's session surpassed our expectations and there was a superlative feedback from the team.",
+      "rating": 5,
+      "avatar": "AV"
+    },
+    {
+      "name": "Mr. Spyros Gousetis",
+      "position": "Director, Marketing, Middle East & Africa, Sony Mobile Communications",
+      "content": "Manas, managed to captivate a very diverse & demanding pool of delegates from 12 countries.",
+      "rating": 5,
+      "avatar": "SG"
+    },
+    {
+      "name": "Mr. Alfredo A. Antonio",
+      "position": "Purchasing Director, Global Business Services, Procter & Gamble Asia",
+      "content": "Manas's unique style, storytelling and activities, inspired our people once again.",
+      "rating": 5,
+      "avatar": "AA"
+    }
+  ],
+  "footer": "Manas has worked with over 2000 Multi-National Corporates across 51 countries and has touched the lives of over 3 million people through his workshops and books."
+} 
