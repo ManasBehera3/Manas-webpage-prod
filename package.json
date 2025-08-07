@@ -1,6 +1,6 @@
 {
   "name": "manas-bahera-webpage",
-  "homepage": "https://ManasBehera3.github.io/Manas-webpage",
+  "homepage": "http://ManasBehera3.github.io/Manas-webpage-prod",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,12 +9,11 @@
     "@mui/icons-material": "^7.2.0",
     "@mui/material": "^7.2.0",
     "cra-template-pwa": "2.0.0",
-    "gh-pages": "^6.3.0",
     "install": "^0.13.0",
     "npm": "^11.4.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "react-slick": "^0.30.3",
     "slick-carousel": "^1.8.1",
     "web-vitals": "^5.0.3"
@@ -29,7 +28,7 @@
     "build:staging": "env-cmd -f .env.staging react-scripts build",
     "build:prod": "env-cmd -f .env.production react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject", 
+    "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
@@ -52,6 +51,7 @@
     ]
   },
   "devDependencies": {
-    "env-cmd": "^10.1.0"
+    "env-cmd": "^10.1.0",
+    "gh-pages": "^6.3.0"
   }
 }
