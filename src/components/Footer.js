@@ -82,6 +82,9 @@ const Footer = () => {
               <IconButton color="primary" aria-label="WhatsApp" href="https://whatsapp.com/channel/0029VaLZd5rGE56e2UOIJA24" target="_blank" rel="noopener noreferrer">
                 <WhatsAppIcon />
               </IconButton>
+              <IconButton color="primary" aria-label="YouTube" href="https://www.youtube.com/@manasbehera_3.0" target="_blank" rel="noopener noreferrer">
+                <YouTubeIcon />
+              </IconButton>
             </Box>
             <Typography variant="body2" color="text.secondary">
               Follow me on social media for the latest updates and inspirational content.
