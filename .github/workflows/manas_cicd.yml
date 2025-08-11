@@ -2,7 +2,10 @@ name: Deployment to GitHub Pages
 
 on:
   push:
-    branches: [development]
+    branches: [develop]
+  pull_request:
+    types: [closed]
+    branches: [main]
 
 permissions:
   pages: write
@@ -39,6 +42,7 @@ jobs:
           path: build
 
       - name: Deploy to GitHub Pages
+        if: github.ref == 'refs/heads/main'
         uses: actions/deploy-pages@v4
         with:
           artifact-name: 'github-pages'
