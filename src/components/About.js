@@ -12,7 +12,7 @@ const About = ({ content }) => {
   const {
     title = 'About Manas',
     paragraphs = [""],
-    role = 'CEO & Chief Facilitator',
+    // role = 'CEO & Chief Facilitator',
   } = content || {};
 
   return (
