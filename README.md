@@ -301,6 +301,16 @@ If you need help:
 3. Make sure all files are saved
 4. Restart the development server if needed
 
+## Deployments
+1. Always develop/make changes in Dev branch. Run the code, debugg and once successful then pull into Main/Production. Here are steps to follow:
+2. Make changes in dev branch
+3. See and Wait for github action tab to build the changes
+4. If not build successfully, revert the last change. Steps to revert to be followed.
+5. If build is successful, then create a 'Pull Request'
+6. Go to 'Pull Request' tab, select 'Main' as base branch and see all the changes
+7. If everything looks good with no conflicts, Merge the pull request.
+8. Wait for github Action to build and deploy the changes.
+
 ---
 
 ## 🎉 You're Ready!
