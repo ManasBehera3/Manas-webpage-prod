@@ -2,9 +2,9 @@ name: Deployment to GitHub Pages
 
 on:
   push:
-    branches: ['main'] 
+    branches: [development]
 
-permissions: 
+permissions:
   pages: write
   id-token: write
   contents: read
@@ -19,13 +19,18 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '20' 
+          node-version: '20'
 
       - name: Install Dependencies
-        run: npm ci  
+        run: npm ci
 
       - name: Build Project
-        run: npm run build
+        run: |
+          if [ "${GITHUB_REF##*/}" = "main" ]; then
+            npm run build:prod
+          else
+            npm run build:dev
+          fi
 
       - name: Upload Pages artifacts
         uses: actions/upload-pages-artifact@v3
@@ -36,5 +41,4 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
           artifact-name: 'github-pages'
