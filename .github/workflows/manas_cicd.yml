@@ -2,7 +2,7 @@ name: Deployment to GitHub Pages
 
 on:
   push:
-    branches: [develop]
+    branches: [development]
   pull_request:
     types: [closed]
     branches: [main]
