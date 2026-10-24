@@ -48,11 +48,11 @@ const Footer = () => {
             <Typography variant="h6" color="text.primary" gutterBottom>
               Contact Information
             </Typography>
-            {/* <Typography variant="body2" color="text.secondary" paragraph>
-              Phone: +91 
-            </Typography> */}
+             <Typography variant="body2" color="text.secondary" paragraph>
+              Phone: +91 9380785383
+            </Typography> 
             <Typography variant="body2" color="text.secondary" paragraph>
-              Email: manas.behera5@gmail.com
+              Email: manasbehera.connect@gmail.com
             </Typography>
             <Typography variant="body2" color="text.secondary" paragraph>
               Address: Bengaluru, India
